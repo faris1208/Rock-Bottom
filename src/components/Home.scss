@@ -618,7 +618,6 @@ footer{
         margin: 20px 0px;
 
         p{
-            //styleName: Texts/Body 4;
             font-family: Roboto;
             font-size: 14px;
             font-weight: 400;
@@ -634,6 +633,8 @@ footer{
         flex-direction: row;
         gap: 20px;
     }
+
+
 }
 
 @media (min-width:700px) {
