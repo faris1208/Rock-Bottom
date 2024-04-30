@@ -9,7 +9,7 @@ import five from "../assets/Img/Playwork Dreams Logo Grey.png";
 export default function Logo() {
   return (
     <div className='Logo-Heading'>
-        <h4>Our Supporters</h4>
+        <h4>Our Partners</h4>
         <div className='Logo-Img'>
             <img src={one} alt="" className="Logo-image" width="100%" />
             <img src={two} alt="" className="Logo-image" width="100%" />

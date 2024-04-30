@@ -32,8 +32,12 @@ export default function Faq() {
                 <p>We empower warriors by sharing knowledge, sharing stories, listening to stories, providing resources, embracing positivity and opportunities for personal and professional growth all by building a network/community.</p>
                 <button onClick={() => {navigate("/register");}} className='Learn-btn'>Learn More</button>
             </div>
-            <div className='people-video'>
-                <img src={people} alt="" className="people-image" width="100%" />
+            <div className='people-video' id='Contact'>
+                <video className='green' width="320" height="440" controls>
+                    <source src="https://res.cloudinary.com/dmvvb4t5w/video/upload/v1714502453/WhatsApp_Video_2024-04-30_at_7.31.23_PM_a1vok7.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                {/* <img src={people} alt="" className="people-image" width="100%" /> */}
             </div>
         </div>
     </div>

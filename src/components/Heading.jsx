@@ -1,6 +1,7 @@
 import React from 'react'
 import play from "../assets/Img/Play icon.svg";
 import { useNavigate } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Heading() {
 
@@ -14,10 +15,12 @@ export default function Heading() {
             </div>
             <div className='Heading-Play'>
                 <button onClick={() => {navigate("/register");}} className='btn-Donate'>Donate Now</button>
-                <div className='play-text'>
-                    <img src={play} alt="" className="play-image" width="100%" />
-                    <p>Play Video</p>
-                </div>
+                <Link to={'#Contact'} style={{textDecoration: 'none'}} smooth>
+                    <div className='play-text'>
+                        <img src={play} alt="" className="play-image" width="100%" />
+                        <p>Play Video</p>
+                    </div>
+                </Link>
             </div>
         </div>
     </div>
