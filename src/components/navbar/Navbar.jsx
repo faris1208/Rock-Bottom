@@ -26,7 +26,7 @@ export default function Navbar() {
     };
 
     window.addEventListener("scroll", scroll);
-  });
+  }, []);
 
   return (
     <nav>
@@ -40,7 +40,7 @@ export default function Navbar() {
             <li onClick={() => {navigate("/volunteer");}}>Volunteer</li>
             <li onClick={() => {navigate("/login");}}>Login</li>
             <li onClick={() => {navigate("/register");}}>Register</li>
-            <li  onClick={() => {navigate("/register");}}>Donate Now</li>
+            <li onClick={() => {navigate("/register");}}>Donate Now</li>
           </ul>
         </div>
 
@@ -48,9 +48,9 @@ export default function Navbar() {
           <ul>
             <li onClick={() => {navigate("/about");}}>About Us</li>
             <li onClick={() => {navigate("/volunteer");}}>Volunteer</li>
-            <li  onClick={() => {navigate("/login");}}>Login</li>
+            <li onClick={() => {navigate("/login");}}>Login</li>
             <li onClick={() => {navigate("/register");}}>Register</li>
-            <li  onClick={() => {navigate("/register");}}>
+            <li onClick={() => {navigate("/register");}}>
               <button className='First-Donate-Now-btn'>Donate Now</button>
             </li>
           </ul>
