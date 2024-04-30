@@ -26,8 +26,6 @@ export default function Faq() {
             </div>
         </div>
 
-        
-
         <div className='Faq-two'>
             <div className='Faq-two-text'>
                 <h2>Empowerment</h2>

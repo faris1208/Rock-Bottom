@@ -52,7 +52,7 @@ export default function Features() {
                         </div>
                         <div className='Events-text-two'>
                             <p>Next Events</p>
-                            <h6>Mental Health of those living with sickle cell</h6>
+                            <h6>TALK SERIES: Mental Health of those living with sickle cell</h6>
                             {/* <p>Mental Health of those living with sickle cell</p> */}
                         </div>
                         <div className='Arrow-Img'>
