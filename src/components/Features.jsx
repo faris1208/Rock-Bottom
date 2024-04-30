@@ -1,7 +1,14 @@
 import React from 'react'
 import today from "../assets/Img/Arrow.svg";
+import { useNavigate } from "react-router-dom";
+import red3 from "../assets/Img/red1.jpg";
+import red2 from "../assets/Img/red2.jpg";
+import red1 from "../assets/Img/red3.jpg";
 
 export default function Features() {
+
+    const navigate = useNavigate();
+
   return (
     <div className='Features-Container'>
         <div className='Support-Head'>
@@ -16,68 +23,83 @@ export default function Features() {
                 <div className='Project-Head'>
                     <h3>Foundation and Awareness</h3>
                     <p>Establish an online presence for Rock Bottom Sickle cell Initiative to increase awareness and reach a wider audience.</p>
-                    <button className='LearnMore-btn'>Learn More</button>
+                    <button  onClick={() => {navigate("/register");}} className='LearnMore-btn'>Learn More</button>
                 </div>
             </div>
             <div className='off-color2'>
                 <div className='Project-Head2'>
                     <h3>Strengthening Support Systems</h3>
                     <p>Conduct workshops on self-help techniques and play dates, including mental health support for sickle cell patients and their families.</p>
-                    <button className='LearnMore-btn'>Learn More</button>
+                    <button onClick={() => {navigate("/register");}} className='LearnMore-btn'>Learn More</button>
                 </div>
             </div>
             <div className='off-color3'>
                 <div className='Project-Head3'>
                     <h3>Blood Bank Initiation</h3>
                     <p>Collaborate with medical institutions to identify potential locations and feasibility for the blood bank.</p>
-                    <button className='LearnMore-btn'>Learn More</button>
+                    <button onClick={() => {navigate("/register");}} className='LearnMore-btn'>Learn More</button>
                 </div>
             </div>
         </div>
         <div className='Events-Container'>
             <h1>Upcoming Events</h1>
             <div className='Events-heading'>
-                <div className='Events-Wrapper'>
-                    <div className='Events-text'>
-                        <h5>20</h5>
-                        <p>APR</p>
+                <div className='Event-Last'>
+                    <div className='Events-Wrapper'>
+                        <div className='Events-text'>
+                            <h5>20</h5>
+                            <p>APR</p>
+                        </div>
+                        <div className='Events-text-two'>
+                            <p>Next Events</p>
+                            <h6>Mental Health of those living with sickle cell</h6>
+                            {/* <p>Mental Health of those living with sickle cell</p> */}
+                        </div>
+                        <div className='Arrow-Img'>
+                            <img src={today} alt="" className="Arrow-image" width="100%" />
+                        </div>
                     </div>
-                    <div className='Events-text-two'>
-                        <p>Next Events</p>
-                        <h6>20th April TALK SERIES: Mental Health of those living with sickle cell</h6>
+                    <div className='Events-Image'>
+                        <img src={red1} alt="" className="red-image" width="100%" />
                     </div>
-                    <div className='Arrow-Img'>
-                        <img src={today} alt="" className="Arrow-image" width="100%" />
+                </div>
+                <div className='Event-Last'>
+                    <div className='Events-Wrapper'>
+                        <div className='Events-text'>
+                            <h5>27</h5>
+                            <p>APR</p>
+                        </div>
+                        <div className='Events-text-two'>
+                            <p>Next Events</p>
+                            <h6>A day with our wonderful children </h6>
+                        </div>
+                        <div className='Arrow-Img'>
+                            <img src={today} alt="" className="Arrow-image" width="100%" />
+                        </div>
+                    </div>
+                    <div className='Events-Image'>
+                        <img src={red2} alt="" className="red-image" width="100%" />
+                    </div>
+                </div>
+                <div className='Event-Last'>
+                    <div className='Events-Wrapper'>
+                        <div className='Events-text'>
+                            <h5>4</h5>
+                            <p>MAY</p>
+                        </div>
+                        <div className='Events-text-two'>
+                            <p>Next Events</p>
+                            <h6>A day with our wonderful children </h6>
+                        </div>
+                        <div className='Arrow-Img'>
+                            <img src={today} alt="" className="Arrow-image" width="100%" />
+                        </div>
+                    </div>
+                    <div className='Events-Image'>
+                        <img src={red3} alt="" className="red-image" width="100%" />
                     </div>
                 </div>
 
-                <div className='Events-Wrapper'>
-                    <div className='Events-text'>
-                        <h5>27</h5>
-                        <p>APR</p>
-                    </div>
-                    <div className='Events-text-two'>
-                        <p>Next Events</p>
-                        <h6>A day with our wonderful children </h6>
-                    </div>
-                    <div className='Arrow-Img'>
-                        <img src={today} alt="" className="Arrow-image" width="100%" />
-                    </div>
-                </div>
-
-                <div className='Events-Wrapper'>
-                    <div className='Events-text'>
-                        <h5>4</h5>
-                        <p>MAY</p>
-                    </div>
-                    <div className='Events-text-two'>
-                        <p>Next Events</p>
-                        <h6>A day with our wonderful children </h6>
-                    </div>
-                    <div className='Arrow-Img'>
-                        <img src={today} alt="" className="Arrow-image" width="100%" />
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -94,12 +116,14 @@ export default function Features() {
             </div>
         </div>
 
-        <div className='Contribute'>
-            <div className='Contribute-Background'>
-                <h2>Buy a rock bottom book or invest in one of our talented warrior today.</h2>
-                <div className='Buttons'>
-                    <button className='Join-btn'>Join as a volunteer</button>
-                    <button className='Donate-Now-btn'>Donate Now</button>
+        <div className='New-Contribute'>
+            <div className='Contribute'>
+                <div className='Contribute-Background'>
+                    <h2>Buy a rock bottom book or invest in one of our talented warrior today.</h2>
+                    <div className='Buttons'>
+                        <button onClick={() => {navigate("/register");}} className='Join-btn'>Join as a volunteer</button>
+                        <button onClick={() => {navigate("/register");}} className='Donate-Now-btn'>Donate Now</button>
+                    </div>
                 </div>
             </div>
         </div>

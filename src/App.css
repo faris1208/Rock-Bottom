@@ -13,6 +13,10 @@ body{
   font-family: CatinRegular;
   src: url("./assets/font/Aeoinik/Aeonik-Regular.otf");
 }
+@font-face {
+  font-family: Arsenal;
+  src: url("./assets/font/Arsenal/Arsenal-Regular.ttf");
+}
 
 @font-face {
   font-family: Catin;

@@ -18,7 +18,8 @@ export default function About() {
             </div>
             <div className='Faq-text-two'>
                 {/* <h6>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</h6> */}
-                <p>CORE VALUES:
+                <h6>CORE VALUES:</h6>
+                <p>
 Accuracy: We are committed to providing accurate and reliable information.
 Integrity: We uphold the highest ethical standards in data assessment and reporting
 Transparency: We are open and transparent about our methodologies and findings.
