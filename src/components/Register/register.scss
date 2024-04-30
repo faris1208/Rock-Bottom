@@ -1,0 +1,170 @@
+.Register-container{
+
+    .Register-Img{
+        display: none;
+    }
+
+    .Register-Form{
+        background: #FAFAFA;
+        padding: 20px;
+
+        .Register-Text{
+
+            h3{
+                font-family: Catin;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 50.4px;
+                text-align: left;
+                color: #000;
+            }
+
+
+            p{
+                font-family: CatinRegular;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20.4px;
+                text-align: left;
+                color: #525560;
+            }
+        }
+
+        .from-form{
+
+            .from-form-label{
+                display: flex;
+                flex-direction: column;
+                margin: 20px 0px;
+
+                label{
+                    //styleName: Texts/Body 2;
+                    font-family: CatinRegular;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #9B9B9B;
+                    margin-bottom: 5px;
+                }
+
+                .from-form-input{
+                    width: 100%;
+                    padding: 10px 20px;
+                    background: #A6A6A61A;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    font-family: CatinRegular;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+.Register-btn{
+    background: #8B0000;
+    //styleName: Texts/Nav Header;
+    font-family: CatinRegular;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    color: #FAFAFA;
+    cursor: pointer;
+    margin: 20px 0px;
+    width: 80%;
+}
+
+@media (min-width:700px) {
+    .Register-container{
+        display: flex;
+        justify-content: space-between;
+        background: #FAFAFA;
+
+        .Register-Img{
+            display: block;
+        }
+    
+        .Register-Form{
+            background: #FAFAFA;
+            // padding: 20px;
+            padding: 40px 120px 20px;
+            width: 60%;
+    
+            .Register-Text{
+    
+                h3{
+                    font-family: Catin;
+                    font-size: 26px;
+                    font-weight: 700;
+                    line-height: 50.4px;
+                    text-align: left;
+                    color: #000;
+                }
+    
+    
+                p{
+                    font-family: CatinRegular;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20.4px;
+                    text-align: left;
+                    color: #525560;
+                }
+            }
+    
+            .from-form{
+    
+                .from-form-label{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 20px 0px;
+    
+                    label{
+                        //styleName: Texts/Body 2;
+                        font-family: CatinRegular;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        text-align: left;
+                        color: #9B9B9B;
+                        margin-bottom: 5px;
+                    }
+    
+                    .from-form-input{
+                        width: 100%;
+                        padding: 10px 20px;
+                        background: #A6A6A61A;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 18px;
+                        font-family: CatinRegular;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    
+    .Register-btn{
+        background: #8B0000;
+        //styleName: Texts/Nav Header;
+        font-family: CatinRegular;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 8px;
+        color: #FAFAFA;
+        cursor: pointer;
+        margin: 20px 0px;
+        width: 80%;
+    }
+}

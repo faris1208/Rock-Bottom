@@ -3,7 +3,6 @@ import Heading from './Heading'
 import Faq from './Faq'
 import Logo from './Logo'
 import Features from './Features'
-import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
         <Faq />
         <Logo />
         <Features />
-        <Footer />
     </div>
   )
 }

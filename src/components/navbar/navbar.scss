@@ -1,9 +1,8 @@
 nav{
     background-color: #fff;
     z-index: 10;
-    border: 2px solid #008000;
-    padding-bottom: 50px;
-    // font-family: Aeonik;
+    // border: 2px solid green;
+    // padding-bottom: 50px;
 
     .Navbar{
         display: flex;
@@ -22,52 +21,177 @@ nav{
             }
         }
 
-        .Navbar-List{
-            display: none;
-            // visibility: hidden;
-            position: absolute;
-            top: 80px;
-            right: 0px;
-            width: 100%;
-            height: 100vh;
-            background: fixed;
-            background-color: #000;
-            padding: 20px 30px 10px;
-            
-                
-
-              ul{
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-                flex-direction: column;
-                gap: 50px;
-
-                li{
-                    list-style: none;
-                    font-family: DMSansRegular;
-                    font-size: 18px;
-                    font-weight: 600;
-                    line-height: 24px;
-                    color: rgb(7, 150, 158);
-                    cursor: pointer;
-                }
-              }
-        }
     }
 }
 
-// .Navbar-List.is-open{
-//     display: block;
-//     visibility: visible;
-//     position: absolute;
-//     top: 80px;
-//     right: 0px;
-//     width: 100%;
-//     height: 100vh;
-//     background: fixed;
-//     background-color: #000;
-//     padding: 20px 30px 10px;
-//   }
+
+
+.Navbar-List2{
+    display: none;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  .Navbar-List{
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background: fixed;
+    background-color: #fff;
+    padding: 20px 30px 10px;
+    background-attachment: fixed;
+    position: fixed;
+    /* margin: 20px 0px; */
+  }
+  
+  
+  
+  .Navbar-List.is-open{
+    display: none;
+   
+  }
+  
+  /* .login{
+    display: block;
+  } */
+  
+  .Navbar-List ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .Navbar-List ul li{
+    list-style: none;
+    font-family: DMSansRegular;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(7, 150, 158);
+    cursor: pointer;
+  }
+  
+  .Navbar-List li:hover{
+    color: #000;
+  }
+  
+  .Menu{
+    display: block;
+    font-size: 20px;
+  }
+  
+  .login{
+    display: none;
+  }
+  
+  .login-two{
+    display: none;
+  }
+
+@media (min-width:700px) {
+    nav{
+        background-color: #fff;
+        z-index: 10;
+        border: none;
+        padding-bottom: 0px;
+        // font-family: Aeonik;
+    
+        .Navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 140px;
+            width: 100%;
+            // max-width: 1300px;
+            // position: relative;
+    
+            .Navbar-Img{
+                width: 30%;
+    
+                .logo{
+                    width: 30%;
+                }
+            }
+    
+            .Navbar-List{
+                display: none;
+                // visibility: hidden;
+                position: absolute;
+                top: 80px;
+                right: 0px;
+                width: 100%;
+                height: 100vh;
+                background: fixed;
+                background-color: #000;
+                padding: 20px 30px 10px;
+                
+            }
+        }
+    }
+    .Hamburger{
+        display: none;
+    }
+
+    .Navbar-List2{
+        display: block;
+        width: 70%;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            // flex-direction: column;
+            gap: 50px;
+            li{
+                list-style: none;
+                font-family: CatinRegular;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 24px;
+                color: #959595;
+                cursor: pointer;
+
+                &:hover{
+                    color: #8B0000;
+                }
+
+                .First-Donate-Now-btn{
+                    padding: 8px 30px;
+                    font-family: CatinRegular;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    text-align: center;
+                    background: #8B0000;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: #4d0101;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
 
 
