@@ -7,12 +7,14 @@ import './components/about-us/about.scss';
 import './components/volunteer/volunteer.scss';
 import './components/Register/register.scss';
 import './components/login/login.scss';
+import './components/donate/donate.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/about-us/About';
 import Footer from './components/Footer';
 import Volunteer from './components/volunteer/Volunteer';
 import Register from './components/Register/Register';
 import Login from './components/login/Login';
+import Donate from './components/donate/Donate';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path='/volunteer' element={<Volunteer />}/>
         <Route path='/register' element={<Register />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/donate' element={<Donate />}/>
       </Routes>
       <Footer />
     </div>

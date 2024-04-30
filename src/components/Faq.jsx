@@ -21,8 +21,8 @@ export default function Faq() {
 
         <div className='Faq-two'>
             <div className='Faq-two-text'>
-                <h2>We provide a place for children with special needs</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. ‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                <h2>Empowerment</h2>
+                <p>We empower warriors by sharing knowledge, sharing stories, listening to stories, providing resources, embracing positivity and opportunities for personal and professional growth all by building a network/community.</p>
                 <button className='Learn-btn'>Learn More</button>
             </div>
             <div className='people-video'>

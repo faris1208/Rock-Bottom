@@ -6,7 +6,7 @@ export default function Features() {
     <div className='Features-Container'>
         <div className='Support-Head'>
             <div className='Support-Text'>
-                <h2>Support Rock Bottom Initiative today</h2>
+                <h2>Support Rock Bottom Sickle Cell Initiative today</h2>
                 {/* <img src={today} alt="" className="Today-image" width="100%" /> */}
             </div>
             <p>Help make our community a better place for all.</p>
@@ -14,22 +14,22 @@ export default function Features() {
         <div className='Project-Container'>
             <div className='off-color'>
                 <div className='Project-Head'>
-                    <h3>Mission smile 1k: Outdoor charity</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <h3>Foundation and Awareness</h3>
+                    <p>Establish an online presence for Rock Bottom Sickle cell Initiative to increase awareness and reach a wider audience.</p>
                     <button className='LearnMore-btn'>Learn More</button>
                 </div>
             </div>
             <div className='off-color2'>
                 <div className='Project-Head2'>
-                    <h3>Weekly excursions</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <h3>Strengthening Support Systems</h3>
+                    <p>Conduct workshops on self-help techniques and play dates, including mental health support for sickle cell patients and their families.</p>
                     <button className='LearnMore-btn'>Learn More</button>
                 </div>
             </div>
             <div className='off-color3'>
                 <div className='Project-Head3'>
-                    <h3>Monthly public awareness</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <h3>Blood Bank Initiation</h3>
+                    <p>Collaborate with medical institutions to identify potential locations and feasibility for the blood bank.</p>
                     <button className='LearnMore-btn'>Learn More</button>
                 </div>
             </div>
@@ -39,7 +39,21 @@ export default function Features() {
             <div className='Events-heading'>
                 <div className='Events-Wrapper'>
                     <div className='Events-text'>
-                        <h5>13</h5>
+                        <h5>20</h5>
+                        <p>APR</p>
+                    </div>
+                    <div className='Events-text-two'>
+                        <p>Next Events</p>
+                        <h6>20th April TALK SERIES: Mental Health of those living with sickle cell</h6>
+                    </div>
+                    <div className='Arrow-Img'>
+                        <img src={today} alt="" className="Arrow-image" width="100%" />
+                    </div>
+                </div>
+
+                <div className='Events-Wrapper'>
+                    <div className='Events-text'>
+                        <h5>27</h5>
                         <p>APR</p>
                     </div>
                     <div className='Events-text-two'>
@@ -53,22 +67,8 @@ export default function Features() {
 
                 <div className='Events-Wrapper'>
                     <div className='Events-text'>
-                        <h5>13</h5>
-                        <p>APR</p>
-                    </div>
-                    <div className='Events-text-two'>
-                        <p>Next Events</p>
-                        <h6>A day with our wonderful children </h6>
-                    </div>
-                    <div className='Arrow-Img'>
-                        <img src={today} alt="" className="Arrow-image" width="100%" />
-                    </div>
-                </div>
-
-                <div className='Events-Wrapper'>
-                    <div className='Events-text'>
-                        <h5>13</h5>
-                        <p>APR</p>
+                        <h5>4</h5>
+                        <p>MAY</p>
                     </div>
                     <div className='Events-text-two'>
                         <p>Next Events</p>
@@ -85,18 +85,18 @@ export default function Features() {
             <div className='Mission-Text'>
                 <h4>our mission</h4>
                 <h2>Empower - Support - Educate: Building Resilient Lives</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                <p>our mission is to make a meaningful impact in the lives of people affected by sickle cell disease. Our organization, the Rock Bottom Sickle Cell Initiative, has been tirelessly working to raise awareness about sickle cell disease and provide support to individuals and families affected by this condition.</p>
             </div>
             <div className='Mission-Text'>
                 <h4>our Vision</h4>
                 <h2>A World Where Every Sickle Cell Warrior Thrives</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                <p>We are dedicated to raising awareness and providing comprehensive education about SCD to the public. Educate warriors on the need for frequent lab test. Blood test can detect other problems such as anaemia or organ damage so it can be treated early. Urine testing can also detect early kidney problems or infections.</p>
             </div>
         </div>
 
         <div className='Contribute'>
             <div className='Contribute-Background'>
-                <h2>You can contribute to provide a place for children with special needs!</h2>
+                <h2>Buy a rock bottom book or invest in one of our talented warrior today.</h2>
                 <div className='Buttons'>
                     <button className='Join-btn'>Join as a volunteer</button>
                     <button className='Donate-Now-btn'>Donate Now</button>

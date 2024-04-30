@@ -2,7 +2,7 @@ nav{
     background-color: #fff;
     z-index: 10;
     // border: 2px solid green;
-    // padding-bottom: 50px;
+    padding-bottom: 20px;
 
     .Navbar{
         display: flex;
@@ -81,12 +81,12 @@ nav{
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
-    color: rgb(7, 150, 158);
+    color: #959595;
     cursor: pointer;
   }
   
   .Navbar-List li:hover{
-    color: #000;
+    color: #8B0000;
   }
   
   .Menu{

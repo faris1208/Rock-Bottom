@@ -11,7 +11,7 @@ export default function Volunteer() {
             <div className='Volunteer-Form'>
                 <div className='Volunteer-Text'>
                     <h3>Volunteer Today!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspen varius enim in eros elementum tristique. </p>
+                    <p>You are one step away from making an impact on the lives of people that need it every day</p>
                 </div>
                 <form>
                     <div className='Form-Head'>

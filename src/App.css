@@ -11,12 +11,12 @@ body{
 
 @font-face {
   font-family: CatinRegular;
-  src: url("./assets/font/Catin/Cabin-Regular.ttf");
+  src: url("./assets/font/Aeoinik/Aeonik-Regular.otf");
 }
 
 @font-face {
   font-family: Catin;
-  src: url("./assets/font/Catin/Cabin-Bold.ttf");
+  src: url("./assets/font/Aeoinik/Aeonik-Bold.otf");
 }
 
 @font-face {

@@ -1,0 +1,208 @@
+.Login-Container{
+    width: 100%;
+
+    .Login-Img{
+        display: none;
+    }
+
+    .Login-Form{
+        background: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        padding: 60px 0px;
+
+        .Login-Start{
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-family: Catin;
+                font-size: 35px;
+                font-weight: 750;
+                line-height: 57.6px;
+                text-align: left;
+                color: #000000;
+            }
+
+            p{
+                font-family: CatinRegular;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: left;
+                color: #0a0a0a1a;
+                margin-bottom: 20px;
+
+                #Sign-up{
+                    color: #db0606;
+                    cursor: pointer;
+                }
+            }
+
+            .Email-input{
+                width: 100%;
+                padding: 10px 20px;
+                background: #A6A6A61A;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+                font-family: CatinRegular;
+                color: #000;
+
+            }
+
+            .Password{
+                margin: 20px 0px;
+                .password-input{
+                    width: 100%;
+                    padding: 10px 20px;
+                    background: #A6A6A61A;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    font-family: CatinRegular;
+                    color: #000;
+                }
+            }
+            .Logged-in-btn{
+                font-family: CatinRegular;
+                font-size: 13px;
+                font-weight: 500;
+                // line-height: 30px;
+                text-align: center;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 8px;
+                color: #FAFAFA;
+                cursor: pointer;
+                margin: 20px 0px;
+                background: #8B0000;
+            }
+
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: CatinRegular;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: left;
+                color: #959595;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (min-width:700px) {
+    .Login-Container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: #FAFAFA;
+    
+        .Login-Img{
+            display: block;
+        }
+    
+        .Login-Form{
+            width: 60%;
+            background: #FAFAFA;
+            display: flex;
+            justify-content: center;
+            padding: 60px 0px;
+    
+            .Login-Start{
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                // padding: 20px 0px;
+    
+                h1{
+                    font-family: Catin;
+                    font-size: 35px;
+                    font-weight: 750;
+                    line-height: 57.6px;
+                    text-align: left;
+                    color: #000000;
+                }
+    
+                p{
+                    font-family: CatinRegular;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #0a0a0a1a;
+                    margin-bottom: 20px;
+    
+                    #Sign-up{
+                        color: #db0606;
+                        cursor: pointer;
+                    }
+                }
+    
+                .Email-input{
+                    width: 100%;
+                    padding: 10px 20px;
+                    background: #A6A6A61A;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    font-family: CatinRegular;
+                    color: #000;
+    
+                }
+    
+                .Password{
+                    margin: 20px 0px;
+                    .password-input{
+                        width: 100%;
+                        padding: 10px 20px;
+                        background: #A6A6A61A;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 15px;
+                        font-family: CatinRegular;
+                        color: #000;
+                    }
+                }
+                .Logged-in-btn{
+                    font-family: CatinRegular;
+                    font-size: 13px;
+                    font-weight: 500;
+                    // line-height: 30px;
+                    text-align: center;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 8px;
+                    color: #FAFAFA;
+                    cursor: pointer;
+                    margin: 20px 0px;
+                    background: #8B0000;
+                    width: 50%;
+                    margin:20px auto 10px;
+                }
+    
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: CatinRegular;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #959595;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+

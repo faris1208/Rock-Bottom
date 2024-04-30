@@ -6,7 +6,7 @@ export default function Heading() {
     <div className='Heading-Background'>
         <div className='Heading-container'>
             <div className='Heading-text'>
-                <h2>Inclusive care for children with special needs</h2>
+                <h2>Sickle Cell Awareness one story at a time</h2>
             </div>
             <div className='Heading-Play'>
                 <button className='btn-Donate'>Donate Now</button>
