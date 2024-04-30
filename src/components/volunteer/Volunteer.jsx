@@ -4,6 +4,7 @@ import line from "../volunteer/image 2.svg";
 export default function Volunteer() {
   return (
     <div>
+        
         <div className='Volunteer-Container'>
             <div className='Volunteer-Img'>
                 <img src={line} alt="" className="Volunteer-image" width="100%" />

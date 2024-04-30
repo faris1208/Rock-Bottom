@@ -15,6 +15,11 @@ export default function Navbar() {
     setMobile((open) => !open)
 }
 
+const handleNavbar = (path) => {
+  navigate(path)
+  toggleMenu()
+}
+
 
 
 
@@ -36,11 +41,11 @@ export default function Navbar() {
         </div>
         <div  className={`Navbar-List ${mobile ? "is-open" : ""}`}>
           <ul>
-            <li onClick={() => {navigate("/about");}}>About Us</li>
-            <li onClick={() => {navigate("/volunteer");}}>Volunteer</li>
-            <li onClick={() => {navigate("/login");}}>Login</li>
-            <li onClick={() => {navigate("/register");}}>Register</li>
-            <li onClick={() => {navigate("/register");}}>Donate Now</li>
+            <li onClick={() => {handleNavbar("/about") ;}} >About Us</li>
+            <li onClick={() => {handleNavbar("/volunteer");}}>Volunteer</li>
+            <li onClick={() => {handleNavbar("/login");}}>Login</li>
+            <li onClick={() => {handleNavbar("/register");}}>Register</li>
+            <li onClick={() => {handleNavbar("/register");}}>Donate Now</li>
           </ul>
         </div>
 
@@ -63,7 +68,7 @@ export default function Navbar() {
               // onClick={() => setMobile((open) => !open)}
             >
               <div className="Hamburger">
-                {mobile ? <RxHamburgerMenu /> : <TbLetterX />}
+                {mobile ? <RxHamburgerMenu className='harm' /> : <TbLetterX className='harm' />}
               </div>
             </span>
         </div>
