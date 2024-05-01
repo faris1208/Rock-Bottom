@@ -3,7 +3,7 @@ import one from "../assets//Img/New/EDO WOMEN.png";
 import two from "../assets/Img/New/Sickle care logo.png";
 import three from "../assets/Img/New/Salveo Logo.png";
 import four from "../assets/Img/New/EDO 2.png";
-import five from "../assets/Img/Playwork Dreams Logo Grey.png";
+import five from "../assets/Img/Playwork Dreams Logo.png";
 // import six from "../assets/Img/New/Sickle care logo2.png";
 
 export default function Logo() {
