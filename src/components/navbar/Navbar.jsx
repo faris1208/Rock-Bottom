@@ -45,7 +45,7 @@ const handleNavbar = (path) => {
             <li onClick={() => {handleNavbar("/volunteer");}}>Volunteer</li>
             <li onClick={() => {handleNavbar("/login");}}>Login</li>
             <li onClick={() => {handleNavbar("/register");}}>Register</li>
-            <li onClick={() => {handleNavbar("/register");}}>Donate Now</li>
+            <li>Donate Now</li>
           </ul>
         </div>
 
@@ -55,7 +55,7 @@ const handleNavbar = (path) => {
             <li onClick={() => {navigate("/volunteer");}}>Volunteer</li>
             <li onClick={() => {navigate("/login");}}>Login</li>
             <li onClick={() => {navigate("/register");}}>Register</li>
-            <li onClick={() => {navigate("/register");}}>
+            <li>
               <button className='First-Donate-Now-btn'>Donate Now</button>
             </li>
           </ul>

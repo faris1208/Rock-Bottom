@@ -71,7 +71,7 @@ export default function Features() {
                         </div>
                         <div className='Events-text-two'>
                             <p>Next Events</p>
-                            <h6>A day with our wonderful children </h6>
+                            <h6>STORIES THAT TOUCH: Pre-Launch Dinner</h6>
                         </div>
                         <div className='Arrow-Img'>
                             <img src={today} alt="" className="Arrow-image" width="100%" />
@@ -89,7 +89,7 @@ export default function Features() {
                         </div>
                         <div className='Events-text-two'>
                             <p>Next Events</p>
-                            <h6>A day with our wonderful children </h6>
+                            <h6>Sickle Cell Awareness week and Launch Event</h6>
                         </div>
                         <div className='Arrow-Img'>
                             <img src={today} alt="" className="Arrow-image" width="100%" />
@@ -121,8 +121,8 @@ export default function Features() {
                 <div className='Contribute-Background'>
                     <h2>Buy a rock bottom book or invest in one of our talented warrior today.</h2>
                     <div className='Buttons'>
-                        <button onClick={() => {navigate("/register");}} className='Join-btn'>Join as a volunteer</button>
-                        <button onClick={() => {navigate("/register");}} className='Donate-Now-btn'>Donate Now</button>
+                        <button onClick={() => {navigate("/volunteer");}} className='Join-btn'>Join as a volunteer</button>
+                        <button className='Donate-Now-btn'>Donate Now</button>
                     </div>
                 </div>
             </div>
