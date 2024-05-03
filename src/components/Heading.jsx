@@ -16,7 +16,7 @@ export default function Heading() {
                     <h2>Sickle Cell Awareness one story at a time</h2>
                 </div>
                 <div className='Heading-Play'>
-                    <button onClick={() => {navigate("/register");}} className='btn-Donate'>Donate Now</button>
+                    <button className='btn-Donate'>Donate Now</button>
                     <Link to={'#Contact'} style={{textDecoration: 'none'}} smooth>
                         <div className='play-text'>
                             <img src={play} alt="" className="play-image" width="100%" />
